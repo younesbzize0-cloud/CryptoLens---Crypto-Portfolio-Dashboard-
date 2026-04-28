@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,4 +108,50 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+} */
+
+/* @import "tailwindcss"; */
+
+.header {
+  background-color: black;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  padding: 0 16px;
+
+  img {
+    height: 60px;
+  }
+  h1 {
+    margin-left: 16px;
+    font-size: 20px;
+    color: #e5d749;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+    padding: 0;
+
+    li {
+      margin-left: 16px;
+      background-color: #939311;
+      padding: 5px 12px;
+      border-radius: 4px;
+      &:hover {
+          scale: (1.75);
+          box-shadow: rgb(195, 193, 193) 0 0 4px 1px;
+        }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+
+        
+      }
+    }
+  }
 }
+
